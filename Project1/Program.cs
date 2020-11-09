@@ -3,15 +3,20 @@
  * Author: Jacques Zwielich
  * Module: 9
  * Homework: 9 Project 1
- * Problem Statement: Define classes that inherit the same instance variable
+ * Problem Statement: Practice inheritance
  * Alborithm:
- * 1. Define Document parent object
- * 2. have a string text instance variable
- * 3. Create a setText variable to set the instance variable text
- * 4. ToString object that returns a string with the text
- * 5. Define 2 Email & Fileobject derived from the Document parent object
- * 6. Overload the tostring methods in each child class
- * 7. In the main we check and make sure that the subroutine works with 4 different test objects all refering to the various child classes.
+ * 1. Create a parent class called Vehicle
+ * 2. Create instance variables in the parent class vehicle, manufacturer, cylinders and an owner who is a person object
+ * 3. create getters and setters for all of these instance variables
+ * 4. Create a child class of vehicle called Trucl
+ * 5. Truck adds load capacity and towing capacity member variables 
+ * 6. We create getters and setters for these as well
+ * 7. Create a constructor that takes all parameters
+ * 8. Create an Equals and a to string method
+ * 9. Create a person class
+ * 10. This only has an instance variable of name and getters and setters for it
+ * 11. Person also has equals and to string methods
+ * 12. Finally we create a demo showing off all of the functionality of the above classes.
 **/
 using System;
 using System.Buffers;
